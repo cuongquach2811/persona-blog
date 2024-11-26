@@ -1,6 +1,6 @@
 {
-  "name": "personal-cuongquachc",
-  "version": "0.1",
+  "name": "cuongquachc-blog",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
