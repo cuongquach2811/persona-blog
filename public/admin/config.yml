@@ -97,6 +97,7 @@ collections:
     slug: "{{title | slugify}}"  # Automatically generate slug from title
     identifier_field: slug
     summary: "{{title}}"
+    search: true # Enable search feature
     fields:
       - label: "Slug"
         name: "slug"
@@ -139,4 +140,3 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-    search: true  # Enable search functionality for this collection
