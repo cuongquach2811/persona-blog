@@ -4,8 +4,9 @@ module.exports = ({
     config.module.rules.push(
       ...[
         {
-          test: /\.yml$/,
-          type: "json",
+          test: /\.ya?ml$/,
+          // The type: "javascript/auto" ensures that Webpack does not try to parse the YAML output as JSON or JavaScript, avoiding the error.
+          type: "javascript/auto",
           use: "yaml-loader",
         },
         {
