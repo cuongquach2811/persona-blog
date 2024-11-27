@@ -94,10 +94,10 @@ collections:
     extension: "mdx"
     format: "frontmatter"
     create: true
-    slug: "{{title | slugify}}"  # Automatically generate slug from title
+    slug: "{{title | slugify}}"
     identifier_field: slug
     summary: "{{title}}"
-    search: true # Enable search feature
+    search: true
     fields:
       - label: "Slug"
         name: "slug"
